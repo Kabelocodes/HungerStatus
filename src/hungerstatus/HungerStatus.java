@@ -37,7 +37,7 @@ public class HungerStatus {
         }
         
             while(!response.equals("yes") && !response.equals("no")){
-            System.out.println("Please select either yes or no");
+            System.out.println("Please select either yes or No");
             System.out.println("Hi " + name + " are you hungry (yes/no)");
             response = scanner.nextLine().toLowerCase();
         }
