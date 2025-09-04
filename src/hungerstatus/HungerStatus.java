@@ -44,6 +44,6 @@ public class HungerStatus {
         
         // When user says no, exit the loop and display message below
         System.out.println("Oh good, you are full! Have a good day, " + name + "!");
-        scanner.close();
+        
     }
 }
